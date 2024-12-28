@@ -70,7 +70,7 @@ class TicTacToe
             return false;
         }
     }
-    static boolean checkDraw(){
+    public static boolean checkDraw(){
         for(int i=0;i<=2;i++){
             for(int j=0;j<=2;j++){
                 if(board[i][j]==' '){
